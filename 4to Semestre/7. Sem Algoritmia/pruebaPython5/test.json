@@ -1,0 +1,20 @@
+[
+     {
+          "id": "3",
+          "origen": "Monterrey",
+          "destino": "CDMX",
+          "peso": 25
+     },
+     {
+          "id": "2",
+          "origen": "CDMX",
+          "destino": "GDL",
+          "peso": 41
+     },
+     {
+          "id": "1",
+          "origen": "GDL",
+          "destino": "MTY",
+          "peso": 29
+     }
+]

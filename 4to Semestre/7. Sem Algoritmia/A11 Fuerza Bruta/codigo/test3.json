@@ -1,0 +1,53 @@
+[
+     {
+          "id": 0,
+          "origen": {
+               "x": 1,
+               "y": 2
+          },
+          "destino": {
+               "x": 3,
+               "y": 4
+          },
+          "velocidad": 0,
+          "color": {
+               "red": 242,
+               "green": 159,
+               "blue": 172
+          }
+     },
+     {
+          "id": 1,
+          "origen": {
+               "x": 5,
+               "y": 6
+          },
+          "destino": {
+               "x": 7,
+               "y": 8
+          },
+          "velocidad": 1,
+          "color": {
+               "red": 57,
+               "green": 173,
+               "blue": 147
+          }
+     },
+     {
+          "id": 2,
+          "origen": {
+               "x": 9,
+               "y": 10
+          },
+          "destino": {
+               "x": 11,
+               "y": 12
+          },
+          "velocidad": 2,
+          "color": {
+               "red": 28,
+               "green": 168,
+               "blue": 110
+          }
+     }
+]

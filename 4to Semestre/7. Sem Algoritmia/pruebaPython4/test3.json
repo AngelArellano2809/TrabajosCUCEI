@@ -1,0 +1,14 @@
+[
+     {
+          "id": "b",
+          "origen": "b",
+          "destino": "b",
+          "peso": 1
+     },
+     {
+          "id": "a",
+          "origen": "a",
+          "destino": "a",
+          "peso": 0
+     }
+]
