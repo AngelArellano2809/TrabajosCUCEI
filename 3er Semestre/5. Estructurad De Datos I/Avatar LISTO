@@ -1,0 +1,128 @@
+Personaje
+	Nombre
+	Vida
+	Elemento:
+		fuego, agua o aire:
+			2 habilidades de clase
+			2 habilidades básicas
+	Mana
+
+
+
+
+Habilidades:
+	Fuego:
+		Golpe fuego
+		Bola de fuego
+		tormenta de Ceniza
+		Ascuas
+		Látigo de fuego
+		LLamas a mi
+	Agua:
+		Hidropulso
+		Rayo burbuja
+		Brisa
+		escudo de agua a 0 grados
+		Tormenta
+		recolectar
+	Aire:
+		Volar
+		Tornado
+		Brisa
+		Escudo de viento
+		Chiflón
+		Cerrar puerta
+	Básicas:
+		Placaje
+		Fortaleza
+		arañazo
+		rompe escudo
+
+----------------------------------------------------
+
+Clase Peronaje:
+	string nombre;
+	int vida_act;
+	int mana;
+	const int manaMax;
+	const int vidaMax;
+	AtaqueBasico basicos[2]
+
+
+	Placaje()//daño medio y asegurado
+	Fortaleza()//aumeta poco su defensa
+	arañazo()//bajo daño puede atacar hasta 5 veces en mismo turno
+	rompe escudo()//le quita el escudo al enemigo, si se acaba de poner en ese turno tambien hace algo de daño
+
+Clase Igneo:Personaje
+	int especial[2]
+
+	golpe_fuego(Igneo enemigo)//daño asegurado
+	golpe_fuego(Zora enemigo)
+	golpe_fuego(Anemo enemigo)
+	bola_de_fuego(Igneo enemigo)//daño probable
+	bola_de_fuego(Zora enemigo)
+	bola_de_fuego(Anemo enemigo)
+	tormenta_de_Ceniza(Igneo enemigo)//baja probabilidad de daño enemigo
+	tormenta_de_Ceniza(Zora enemigo)
+	tormenta_de_Ceniza(Anemo enemigo)
+	ascuas(Igneo enemigo)//daño prolongado
+	ascuas(Zora enemigo)
+	ascuas(Anemo enemigo)
+	latigo_de_fuego()//baja defensa
+	latigo_de_fuego()
+	latigo_de_fuego()
+	llamas_a_mi()//incrementa daño, se daña a si mismo, refleja daño
+	llamas_a_mi()
+	llamas_a_mi()
+	
+Clase Zora:Personaje
+	int especial[2]
+
+	Hidropulso()//Daño asegurado
+	Hidropulso()
+	Hidropulso()
+	Rayo burbuja()//bajo daño aunemta de gran manera si se uso prebiamente tormenta
+	Rayo burbuja()
+	Rayo burbuja()
+	Brisa()//cura al personaje y tambien al enemigo si es Zora o Anemo en menor medida
+	Brisa()
+	Brisa()
+	escudo de agua a 0 grados()//bloquea todo el daño por un tuno pero el fugo lo ignora
+	escudo de agua a 0 grados()
+	escudo de agua a 0 grados()
+	Tormenta()//crea una tormenta que puede lanzar rayos a un personaje aletorio todos los turnos
+	Tormenta()
+	Tormenta()
+	recolectar()//aunemta un estad aleatorio como daño, critico o defensa
+	recolectar()
+	recolectar()
+
+
+Clase Anemo:Personaje
+	int especial[2]
+
+	Volar()//anula todo el daño por un turno y el siguiente hace daño asegurado
+	Volar()
+	Volar()
+	Tornado()//daño bajo pero tien la probabilidad de hacer retroceder al enemigo (que no ataque)
+	Tornado()
+	Tornado()
+	Brisa()//cura al personaje y tambien al enemigo si es Zora o Anemo en menor medida
+	Brisa()
+	Brisa()
+	Escudo de viento()//ignora todo el daño de habilidades pero mutiplica al doble el daño recibido de los ataques basicos
+	Escudo de viento()
+	Escudo de viento()
+	Chiflón()//baja el daño del enemigo pero aumenta su defensa.
+	Chiflón()
+	Chiflón()
+	Cerrar puerta()//reduce su defensa y deja de atacar por 3 trunos, si sobrevive ejecuta al enemigo
+	Cerrar puerta()
+	Cerrar puerta()
+
+
+Arreglo de personajes
+
+
+

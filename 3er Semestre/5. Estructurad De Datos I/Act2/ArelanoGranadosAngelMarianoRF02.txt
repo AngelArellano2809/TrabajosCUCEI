@@ -1,0 +1,25 @@
+//Requerimientos Funcionales Logrados//
+
+Clase “Cliente”. (10 puntos)
+
+Clase “Pelicula”. (10 puntos)
+
+Clase “Sala” y/o “SalaGrande” y “SalaMediana”. (10 puntos)
+
+Clase “Cine”. (10 puntos)
+
+Registrar clientes. (10 puntos)
+
+Buscar clientes. (10 puntos)
+
+Registrar película. (10 puntos)
+
+Mostrar asientos disponibles. (10 puntos)
+
+Eliminar películas de salas (elimina clientes). (10 puntos)
+
+Mostrar catalogo de películas, horarios y salas en las que se reproduce. (10 puntos)
+
+
+TOTAL: 100 PUNTOS
+

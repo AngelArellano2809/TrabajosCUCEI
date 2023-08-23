@@ -1,0 +1,94 @@
+# depslib dependency file v1.0
+1649015865 source:c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act2\arellanogranadosangelmarianocf\act2\cliente.cpp
+	"Cliente.h"
+
+1649015865 c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act2\arellanogranadosangelmarianocf\act2\cliente.h
+	<iostream>
+
+1649018292 source:c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act2\arellanogranadosangelmarianocf\act2\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<cstring>
+	<string.h>
+	"Cliente.h"
+	"Pelicula.h"
+	"SalaGrande.h"
+	"SalaMediana.h"
+	"Cine.h"
+	"Menu.h"
+	"Sala.h"
+
+1649027433 source:c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act2\arellanogranadosangelmarianocf\act2\pelicula.cpp
+	"Pelicula.h"
+
+1649027420 c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act2\arellanogranadosangelmarianocf\act2\pelicula.h
+	<iostream>
+
+1649020715 source:c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act2\arellanogranadosangelmarianocf\act2\sala.cpp
+	"Sala.h"
+
+1649020709 c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act2\arellanogranadosangelmarianocf\act2\sala.h
+	"Pelicula.h"
+	"Cliente.h"
+	<iostream>
+	<string>
+
+1649019653 source:c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act2\arellanogranadosangelmarianocf\act2\cine.cpp
+	"Cine.h"
+
+1649018292 c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act2\arellanogranadosangelmarianocf\act2\cine.h
+	"SalaGrande.h"
+	"SalaMediana.h"
+
+1648954366 c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act2\arellanogranadosangelmarianocf\act2\menu.h
+	<iostream>
+
+1649002711 source:c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act2\arellanogranadosangelmarianocf\act2\menu.cpp
+	"Menu.h"
+
+1649028862 source:c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act2\arellanogranadosangelmarianocf\act2\salagrande.cpp
+	"SalaGrande.h"
+
+1649019529 c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act2\arellanogranadosangelmarianocf\act2\salagrande.h
+	"Sala.h"
+	"Asiento.h"
+	<iostream>
+	<string>
+	<sstream>
+
+1649019529 c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act2\arellanogranadosangelmarianocf\act2\salamediana.h
+	"Sala.h"
+	"Asiento.h"
+	<iostream>
+	<string>
+	<sstream>
+
+1649022392 source:c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act2\arellanogranadosangelmarianocf\act2\salamediana.cpp
+	"SalaMediana.h"
+
+1649022226 c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act2\arellanogranadosangelmarianocf\act2\asiento.h
+	"Sala.h"
+	"Cliente.h"
+	<iostream>
+	<string>
+	<sstream>
+
+1649024522 source:c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act2\arellanogranadosangelmarianocf\act2\asiento.cpp
+	"Asiento.h"
+
+1648949721 c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act2\arellanogranadosangelmarianocf\act2\\sala.h
+	"Pelicula.h"
+	"Cliente.h"
+	"Asiento.h"
+
+1648363742 c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act2\arellanogranadosangelmarianocf\act2\\pelicula.h
+	<iostream>
+
+1648359648 c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act2\arellanogranadosangelmarianocf\act2\\cliente.h
+	<iostream>
+
+1648951022 c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act2\arellanogranadosangelmarianocf\act2\\asiento.h
+	<Sala.h>
+	<iostream>
+

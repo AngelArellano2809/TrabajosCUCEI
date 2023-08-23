@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1651025815 source:c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act3\arellanogranadosangelmarianocf\act3\libro.cpp
+	"Libro.h"
+
+1651025640 c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act3\arellanogranadosangelmarianocf\act3\libro.h
+	<iostream>
+
+1651091250 source:c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act3\arellanogranadosangelmarianocf\act3\lista.cpp
+	"Lista.h"
+
+1651090320 c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act3\arellanogranadosangelmarianocf\act3\lista.h
+	"Libro.h"
+	<iostream>
+
+1651093317 source:c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act3\arellanogranadosangelmarianocf\act3\main.cpp
+	<iostream>
+	"Menu.h"
+	"Lista.h"
+	"Libro.h"
+
+1650168063 c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act3\arellanogranadosangelmarianocf\act3\menu.h
+	<iostream>
+
+1650168960 source:c:\users\usuario\documents\trabajos 3 cucei\5. estructurad de datos i\act3\arellanogranadosangelmarianocf\act3\menu.cpp
+	"Menu.h"
+

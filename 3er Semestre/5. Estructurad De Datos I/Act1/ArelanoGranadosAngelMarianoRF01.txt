@@ -1,0 +1,18 @@
+//Requerimientos Funcionales Logrados//
+
+Crear Jugadores (con registros) y guardarlos en un arreglo de jugadores. 20 PUNTOS
+
+Generar id, de 1 a 100, de forma aleatoria e irrepetible. 10 PUNTOS
+
+Eliminar jugadores por nombre y por id. 20 PUNTOS
+
+Sumar y restar puntos a un jugador:
+	• Por nombre. 10 PUNTOS
+	• Por id. 10 PUNTOS
+
+Mostrar todos los jugadores. 10 PUNTOS
+
+Buscar y mostrar al jugador con más puntos. 20 PUNTOS
+
+TOTAL: 100 PUNTOS
+

@@ -1,0 +1,43 @@
+Clase cine
+	7 salas
+		2 grandes
+			140 personas
+			10 x 14 (Filas A-J y Columnas 1-14)
+		5 medianas
+			56 personas
+			7 x 8 (Filas A-G y Columnas 1-8)
+	Clase pelicula
+		nombre
+		director
+		duracion
+		horarios (Puede estar la misma película en dos salas distintas, pero no puede haber dos películas distintas en la misma sala.)
+	Clase cliente
+		comprar boleto
+			registrar
+				nombre
+				id unico genrado
+			eligen
+				pelicula
+				horario
+				sala
+				lugar disponible (fila,columna)
+		Informacion de boleto
+			busqueda por nombre o id (Si la búsqueda se realiza por nombre, se mostrarán todas las coincidencias y se mostrarán también los id.)
+				pelicula
+				sala
+				hora
+	Clase Sala
+		agregar peliculas (solo si hay horarios deisponibles)
+		horario de 9-22
+		una sala puede tener hasta 5 horarios
+		entre funciones hay 30 min para limpieza
+		2800 peronas MAX (7 salas con los 5 horarios a maxima capacidad)
+		se puede eliminar epliculas de horarios
+			se eliminan los clientes igual
+
+
+
+			
+horario de 9-22
+	tranformar a min.
+	anterior horario + 30
