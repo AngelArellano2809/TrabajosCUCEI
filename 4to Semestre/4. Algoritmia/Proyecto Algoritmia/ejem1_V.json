@@ -1,0 +1,38 @@
+[
+     {
+          "id": 1,
+          "nombre": "V0",
+          "origen_x": 0,
+          "origen_y": 50
+     },
+     {
+          "id": 2,
+          "nombre": "V1",
+          "origen_x": 30,
+          "origen_y": 10
+     },
+     {
+          "id": 3,
+          "nombre": "V2",
+          "origen_x": 30,
+          "origen_y": 90
+     },
+     {
+          "id": 4,
+          "nombre": "V3",
+          "origen_x": 60,
+          "origen_y": 10
+     },
+     {
+          "id": 5,
+          "nombre": "V4",
+          "origen_x": 60,
+          "origen_y": 90
+     },
+     {
+          "id": 6,
+          "nombre": "V5",
+          "origen_x": 90,
+          "origen_y": 50
+     }
+]

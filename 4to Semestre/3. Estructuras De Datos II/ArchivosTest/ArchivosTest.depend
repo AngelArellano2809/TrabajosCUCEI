@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1665110317 source:i:\trabajos 4 cucei\3. estructuras de datos ii\archivostest\main.cpp
+	<iostream>
+	<cstdlib>
+	<string.h>
+	<fstream>
+	<stdio.h>
+	<time.h>
+

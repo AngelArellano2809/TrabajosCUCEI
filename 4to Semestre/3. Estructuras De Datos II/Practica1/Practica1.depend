@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1665352052 source:i:\trabajos 4 cucei\3. estructuras de datos ii\practica1\main.cpp
+	<iostream>
+	<cstdlib>
+	<string.h>
+	<fstream>
+	<stdio.h>
+	<time.h>
+	<cmath>
+	<locale.h>
+
+1665352052 source:j:\trabajos 4 cucei\3. estructuras de datos ii\practica1\main.cpp
+	<iostream>
+	<cstdlib>
+	<string.h>
+	<fstream>
+	<stdio.h>
+	<time.h>
+	<cmath>
+	<locale.h>
+

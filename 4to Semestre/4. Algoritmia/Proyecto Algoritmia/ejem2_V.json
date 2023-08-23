@@ -1,0 +1,68 @@
+[
+     {
+          "id": 1,
+          "nombre": "S",
+          "origen_x": 0,
+          "origen_y": 30
+     },
+     {
+          "id": 2,
+          "nombre": "a",
+          "origen_x": 30,
+          "origen_y": 0
+     },
+     {
+          "id": 3,
+          "nombre": "d",
+          "origen_x": 30,
+          "origen_y": 30
+     },
+     {
+          "id": 4,
+          "nombre": "g",
+          "origen_x": 30,
+          "origen_y": 60
+     },
+     {
+          "id": 5,
+          "nombre": "b",
+          "origen_x": 60,
+          "origen_y": 0
+     },
+     {
+          "id": 6,
+          "nombre": "e",
+          "origen_x": 60,
+          "origen_y": 30
+     },
+     {
+          "id": 7,
+          "nombre": "h",
+          "origen_x": 60,
+          "origen_y": 60
+     },
+     {
+          "id": 8,
+          "nombre": "c",
+          "origen_x": 90,
+          "origen_y": 0
+     },
+     {
+          "id": 9,
+          "nombre": "f",
+          "origen_x": 90,
+          "origen_y": 30
+     },
+     {
+          "id": 10,
+          "nombre": "l",
+          "origen_x": 90,
+          "origen_y": 60
+     },
+     {
+          "id": 11,
+          "nombre": "t",
+          "origen_x": 120,
+          "origen_y": 30
+     }
+]

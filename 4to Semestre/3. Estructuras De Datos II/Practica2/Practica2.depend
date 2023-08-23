@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1669777383 source:i:\trabajos 4 cucei\3. estructuras de datos ii\practica2\main.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	<stdio.h>
+
+1669338912 source:i:\trabajos 4 cucei\3. estructuras de datos ii\practica2\main2.cpp
+	<string.h>
+	<fstream>
+	<stdio.h>
+
