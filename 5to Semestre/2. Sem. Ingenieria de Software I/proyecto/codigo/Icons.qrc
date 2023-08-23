@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="buttons">
+    <file>plus.png</file>
+    <file>point.png</file>
+    <file>restart.png</file>
+    <file>bell.png</file>
+    <file>heart.png</file>
+    <file>message.png</file>
+    <file>person.png</file>
+    <file>up.png</file>
+    <file>star.png</file>
+    <file>home.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,70 @@
+	
+-- Create the sequence.
+CREATE SEQUENCE "public"."avisos_id_seq" OWNED BY "public"."avisos"."id";
+
+-- Assign it to the table default value.
+ALTER TABLE "public"."avisos" ALTER COLUMN "id" SET DEFAULT nextval('"public"."avisos_id_seq"');
+
+
+CREATE OR REPLACE FUNCTION aviso_exceso_tiempo() RETURNS TRIGGER AS $time_limit$
+    BEGIN
+		INSERT INTO avisos VALUES (DEFAULT, concat(NEW.lugar, ' ha excedido el tiempo limite'), NEW.id);
+        RETURN NULL;
+    END;
+$time_limit$ LANGUAGE plpgsql;	
+	
+CREATE OR REPLACE TRIGGER time_limit
+    AFTER UPDATE ON ticket
+    FOR EACH ROW
+	WHEN (NEW.tiempo > '36:00:00')
+    EXECUTE PROCEDURE  aviso_exceso_tiempo();
+	
+--No usado----------------------------------------------------------
+
+CREATE OR REPLACE VIEW public.detail_seccionA
+ AS
+ SELECT 
+ 	count(*) FILTER (WHERE lugar.seccion::text = 'A'::text) AS total,
+    count(*) FILTER (WHERE lugar.disponible = false AND lugar.seccion::text = 'A'::text) AS ocupados
+ FROM lugar;
+ 
+ CREATE OR REPLACE VIEW public.detail_seccionD
+ AS
+ SELECT
+ 	'D' AS sccion,
+ 	count(*) FILTER (WHERE lugar.seccion::text = 'D'::text) AS total,
+    count(*) FILTER (WHERE lugar.disponible = false AND lugar.seccion::text = 'D'::text) AS ocupados
+ FROM lugar;
+ 
+ CREATE OR REPLACE VIEW public.detail_seccionM
+ AS
+ SELECT 
+ 	count(*) FILTER (WHERE lugar.seccion::text = 'M'::text) AS total,
+    count(*) FILTER (WHERE lugar.disponible = false AND lugar.seccion::text = 'M'::text) AS ocupados
+ FROM lugar;
+	
+	
+CREATE OR REPLACE FUNCTION aviso_seccion_a_llena() RETURNS TRIGGER AS $seccion_a_llena$
+    BEGIN
+		INSERT INTO avisos VALUES (DEFAULT, 'En la seccion A solo quedan 5 lugares', NULL);
+        RETURN NULL;
+    END;
+$seccion_a_llena$ LANGUAGE plpgsql;	
+	
+CREATE OR REPLACE TRIGGER seccion_a_llena
+    AFTER UPDATE ON detail_secciona
+    FOR EACH ROW
+	WHEN (NEW.ocupados > (NEW.total - 5))
+    EXECUTE PROCEDURE  aviso_seccion_a_llena();
+
+CREATE OR REPLACE TRIGGER seccion_d_llena
+    AFTER UPDATE ON detail_secciond
+    FOR EACH ROW 
+	WHEN (NEW.ocupados > (NEW.total - 5))
+    EXECUTE PROCEDURE  aviso_seccion_d_llena();
+
+CREATE OR REPLACE TRIGGER seccion_m_llena
+    AFTER UPDATE ON detail_seccionm
+    FOR EACH STATEMENT
+	WHEN (NEW.ocupados > (NEW.total - 5))
+    EXECUTE PROCEDURE  aviso_seccion_m_llena();

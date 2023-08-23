@@ -1,0 +1,140 @@
+[
+     {
+          "id": 1,
+          "real": 1,
+          "tipo": "A",
+          "peso": 5
+     },
+     {
+          "id": 2,
+          "real": 2,
+          "tipo": "A",
+          "peso": 3
+     },
+     {
+          "id": 3,
+          "real": 3,
+          "tipo": "A",
+          "peso": 0
+     },
+     {
+          "id": 4,
+          "real": 4,
+          "tipo": "A",
+          "peso": 6
+     },
+     {
+          "id": 5,
+          "real": 5,
+          "tipo": "A",
+          "peso": 0
+     },
+     {
+          "id": 6,
+          "real": 6,
+          "tipo": "A",
+          "peso": 0
+     },
+     {
+          "id": 7,
+          "real": 7,
+          "tipo": "A",
+          "peso": 0
+     },
+     {
+          "id": 8,
+          "real": 8,
+          "tipo": "A",
+          "peso": 0
+     },
+     {
+          "id": 9,
+          "real": 9,
+          "tipo": "A",
+          "peso": 0
+     },
+     {
+          "id": 10,
+          "real": 10,
+          "tipo": "A",
+          "peso": 0
+     },
+     {
+          "id": 11,
+          "real": 11,
+          "tipo": "A",
+          "peso": 0
+     },
+     {
+          "id": 12,
+          "real": 1,
+          "tipo": "N",
+          "peso": 0
+     },
+     {
+          "id": 13,
+          "real": 2,
+          "tipo": "N",
+          "peso": 0
+     },
+     {
+          "id": 14,
+          "real": 3,
+          "tipo": "N",
+          "peso": 0
+     },
+     {
+          "id": 15,
+          "real": 4,
+          "tipo": "N",
+          "peso": 0
+     },
+     {
+          "id": 16,
+          "real": 1,
+          "tipo": "F",
+          "peso": 0
+     },
+     {
+          "id": 17,
+          "real": 2,
+          "tipo": "F",
+          "peso": 0
+     },
+     {
+          "id": 18,
+          "real": 3,
+          "tipo": "F",
+          "peso": 0
+     },
+     {
+          "id": 19,
+          "real": 4,
+          "tipo": "F",
+          "peso": 0
+     },
+     {
+          "id": 20,
+          "real": 5,
+          "tipo": "F",
+          "peso": 0
+     },
+     {
+          "id": 21,
+          "real": 7,
+          "tipo": "F",
+          "peso": 0
+     },
+     {
+          "id": 22,
+          "real": 12,
+          "tipo": "A",
+          "peso": 0
+     },
+     {
+          "id": 23,
+          "real": 13,
+          "tipo": "A",
+          "peso": 0
+     }
+]

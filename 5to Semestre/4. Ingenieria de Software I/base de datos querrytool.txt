@@ -1,0 +1,45 @@
+CREATE TABLE IF NOT EXISTS public.seccion
+(
+    id varchar not null primary key,
+    descripccion character varying COLLATE pg_catalog."default",
+    llena boolean default FALSE
+	
+);
+
+CREATE TABLE IF NOT EXISTS public.lugar
+(
+    seccion varchar,
+	id varchar not null primary key,
+    ocupado bool default FALSE,
+	foreign key (seccion) REFERENCES public.seccion(id)
+);
+
+CREATE TABLE IF NOT EXISTS public.ticket
+(
+		id varchar not null,
+		entrada TIMESTAMPTZ DEFAULT Now() not null,
+		salida TIMESTAMPTZ,
+		tiempo TIMESTAMPTZ,
+		lugar varchar not null,
+		foreign key (lugar) REFERENCES public.lugar(id)
+);
+
+INSERT INTO public.seccion(
+	id, descripccion, llena)
+	VALUES ('A', 'Autos', default),
+	('M', 'Motos', default),
+	('D', 'Discapacitados', default);
+
+INSERT INTO public.lugar(
+	seccion, id, ocupado)
+	VALUES ('A', 'A1', default),
+	('A', 'A2', default),
+	('M', 'M1', default),
+	('D', 'D1', default);
+
+INSERT INTO public.ticket(
+	id, entrada, salida, tiempo, lugar)
+	VALUES ('T1A1', default, NOW() + interval '1 hour', NOW() + interval '1 hour', 'A1'),
+	('T2A2', default, NOW() + interval '1 hour', NOW() + interval '1 hour', 'A2'),
+	('T3M1', default, NOW() + interval '1 hour', NOW() + interval '1 hour', 'M1'),
+	('T4D1', default, NOW() + interval '1 hour', NOW() + interval '1 hour', 'D1');
