@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1660924701 source:c:\users\usuario\desktop\arellanogranados218123444\arellanogranados218123444\main.cpp
+	<iostream>
+	<stdlib.h>
+	<Vuelos.h>
+	<Menu.h>
+	<Pasajero.h>
+
+1660923446 source:c:\users\usuario\desktop\arellanogranados218123444\arellanogranados218123444\src\menu.cpp
+	"Menu.h"
+
+1660923478 c:\users\usuario\desktop\arellanogranados218123444\arellanogranados218123444\include\menu.h
+	<iostream>
+	<stdlib.h>
+
+1660922442 source:c:\users\usuario\desktop\arellanogranados218123444\arellanogranados218123444\src\pasajero.cpp
+	"Pasajero.h"
+
+1660923478 c:\users\usuario\desktop\arellanogranados218123444\arellanogranados218123444\include\pasajero.h
+	<iostream>
+	<stdlib.h>
+
+1660923536 source:c:\users\usuario\desktop\arellanogranados218123444\arellanogranados218123444\src\vuelos.cpp
+	"Vuelos.h"
+
+1660923799 c:\users\usuario\desktop\arellanogranados218123444\arellanogranados218123444\include\vuelos.h
+	<iostream>
+	<stdlib.h>
+
+1660925270 source:c:\users\usuario\desktop\arellanogranados218123444\arellanogranados218123444\src\aeropuerto.cpp
+	"Aeropuerto.h"
+
+1660925270 c:\users\usuario\desktop\arellanogranados218123444\arellanogranados218123444\include\aeropuerto.h
+
+1663210788 source:i:\trabajos 4 cucei\7. sem algoritmia\programa aeropuerto (diagnostico)\codigo\main.cpp
+	<iostream>
+	<stdlib.h>
+	<Vuelos.h>
+	<Menu.h>
+	<Pasajero.h>
+	<Aeropuerto.h>
+	<Lista.h>
+
+1663210298 i:\trabajos 4 cucei\7. sem algoritmia\programa aeropuerto (diagnostico)\codigo\include\vuelos.h
+	<iostream>
+	<stdlib.h>
+	<Lista.h>
+	<Pasajero.h>
+
+1660916278 i:\trabajos 4 cucei\7. sem algoritmia\programa aeropuerto (diagnostico)\codigo\include\menu.h
+	<iostream>
+	<stdlib.h>
+
+1661481490 i:\trabajos 4 cucei\7. sem algoritmia\programa aeropuerto (diagnostico)\codigo\include\pasajero.h
+	<iostream>
+	<stdlib.h>
+
+1663212940 source:i:\trabajos 4 cucei\7. sem algoritmia\programa aeropuerto (diagnostico)\codigo\src\aeropuerto.cpp
+	"Aeropuerto.h"
+
+1663210708 i:\trabajos 4 cucei\7. sem algoritmia\programa aeropuerto (diagnostico)\codigo\include\aeropuerto.h
+	<Lista.h>
+	<Vuelos.h>
+
+1663211141 source:i:\trabajos 4 cucei\7. sem algoritmia\programa aeropuerto (diagnostico)\codigo\src\menu.cpp
+	"Menu.h"
+
+1661481519 source:i:\trabajos 4 cucei\7. sem algoritmia\programa aeropuerto (diagnostico)\codigo\src\pasajero.cpp
+	"Pasajero.h"
+
+1663210298 source:i:\trabajos 4 cucei\7. sem algoritmia\programa aeropuerto (diagnostico)\codigo\src\vuelos.cpp
+	"Vuelos.h"
+
+1663304733 i:\trabajos 4 cucei\7. sem algoritmia\programa aeropuerto (diagnostico)\codigo\include\lista.h
+	<iostream>
+	<stdlib.h>
+
