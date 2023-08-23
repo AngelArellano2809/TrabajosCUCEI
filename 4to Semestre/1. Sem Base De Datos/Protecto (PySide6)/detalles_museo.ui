@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1602</width>
+    <height>1092</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1620</width>
+      <height>1080</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>931</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="toolTip">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>C:/Users/Usuario/Downloads/albert-vincent-wu-hAWs6oHfhms-unsplash (2).jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1621</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Arial'; font-size:28pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Muesos Jalisco&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+
+	font: 28pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+
+background-color:rgb(122, 122, 122)
+
+}</string>
+    </property>
+    <property name="text">
+     <string>   Muesos Jalisco</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>130</y>
+      <width>1271</width>
+      <height>901</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QGroupBox{
+font: 14pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+background-color:rgb(68, 68, 68)
+
+}</string>
+    </property>
+    <property name="title">
+     <string>Acciones Administrador BD</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="1">
+      <spacer name="horizontalSpacer_4">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="7" column="3">
+      <widget class="QLabel" name="label_8">
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+
+font: 18pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+
+background-color:rgb(98, 138, 76)
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Colecciones Temporales</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="3">
+      <widget class="QGraphicsView" name="col_tem_graphicsView"/>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLabel" name="label_5">
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+
+font: 18pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+
+background-color:rgb(98, 138, 76)
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Accesibilidad del Museo</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="3">
+      <widget class="QLabel" name="label_7">
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+
+font: 18pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+
+background-color:rgb(98, 138, 76)
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Colecciones Permanentes</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QGraphicsView" name="desc_mus_graphicsView"/>
+     </item>
+     <item row="5" column="3">
+      <widget class="QGraphicsView" name="col_per_graphicsView"/>
+     </item>
+     <item row="2" column="0" rowspan="6">
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="2" column="1">
+      <widget class="QGraphicsView" name="act_esp_graphicsView"/>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="label_3">
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+
+font: 18pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+
+background-color:rgb(98, 138, 76)
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Actividades Especiales </string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QGraphicsView" name="horarios_graphicsView"/>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLabel" name="label_6">
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+
+font: 18pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+
+background-color:rgb(98, 138, 76)
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Horarios</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2" rowspan="8">
+      <spacer name="verticalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="6" column="1">
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="8" column="1">
+      <widget class="QGraphicsView" name="acc_mus_graphicsView"/>
+     </item>
+     <item row="9" column="1">
+      <spacer name="horizontalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="3" column="1">
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLabel" name="label_4">
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+
+font: 18pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+
+background-color:rgb(98, 138, 76)
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Descripción del Museo</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="4">
+      <spacer name="verticalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1602</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuRegresar">
+    <property name="title">
+     <string>Regresar</string>
+    </property>
+    <addaction name="actionVolver_al_inicio"/>
+   </widget>
+   <addaction name="menuRegresar"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionVolver_al_inicio">
+   <property name="text">
+    <string>Volver al inicio</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

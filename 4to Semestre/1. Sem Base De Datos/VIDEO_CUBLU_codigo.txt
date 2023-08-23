@@ -1,0 +1,64 @@
+VIDEO_CLUB_customcreate table directores(
+	ID_Director integer Not null primary KEY,
+	Nombre varchar(30) UNIQUE,
+	Nacionalidad varchar(15)
+);
+
+create table peliculas(
+	ID_Pelicula integer Not null primary KEY,
+	Titulo varchar(30) UNIQUE,
+	Nacionalidad varchar(15),
+	Productora varchar(30),
+	Fecha date DEFAULT now(),
+	ID_Director INTEGER,
+	FOREIGN key (ID_Director) REFERENCES directores (ID_Director)
+);
+
+create table actores(
+	ID_Actor integer Not null primary KEY,
+	Nombre varchar(30) UNIQUE,
+	Nacionalidad varchar(15),
+	sexo varchar(15),
+	estatus varchar(15)
+);
+
+create table participa(
+	ID_Pelicula integer,
+	FOREIGN key (ID_Pelicula) REFERENCES peliculas (ID_Pelicula),
+	ID_Actor integer,
+	FOREIGN key (ID_Actor) REFERENCES actores (ID_Actor)
+);
+
+create table ejemplar(
+	ID_Ejemplar serial Not null primary KEY,
+	Cantidad integer,
+	Fecha date DEFAULT now(),
+	ID_Pelicula integer,
+	FOREIGN key (ID_Pelicula) REFERENCES peliculas (ID_Pelicula)
+);
+
+create table cliente(
+	DNI integer Not null primary KEY,
+	Nombre varchar(30) UNIQUE,
+	Direccion varchar(50),
+	Telefono varchar(10),
+	ID_Ejemplar integer,
+	FOREIGN key (ID_Ejemplar) REFERENCES ejemplar (ID_Ejemplar)
+);
+
+create table socio(
+	DNI_Socio integer Not null primary KEY,
+	Nombre varchar(30) UNIQUE,
+	Direccion varchar(50),
+	Telefono varchar(10),
+	DNI_Recomendado integer,
+	FOREIGN key (DNI_Recomendado) REFERENCES socio (DNI_Socio)
+);
+
+create table alquila(
+	ID_Ejemplar integer,
+	FOREIGN key (ID_Ejemplar) REFERENCES ejemplar (ID_Ejemplar),
+	DNI_Socio integer,
+	FOREIGN key (DNI_Socio) REFERENCES socio (DNI_Socio),
+	limite integer
+);

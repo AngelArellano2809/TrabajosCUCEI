@@ -1,0 +1,63 @@
+CREATE TABLE MUSEO(
+	id_museo integer not null primary key,
+	nombre varchar unique not NULL,
+	horario varchar,
+	ubicacion varchar,
+	contacto varchar
+);
+
+CREATE TABLE encargado museo(
+	id_museo integer unique,
+	nombre varchar,
+	contacto varchar,
+	nombre_usuario varchar unique not null primary key,
+	contaseña varchar unique not null,
+	foreign key(id_museo) REFERENCES museo(id_museo)
+);
+
+CREATE TABLE COLECCIONES_TEMPORALES(
+	id_museo integer unique,
+	foreign key(id_museo) REFERENCES museo(id_museo),
+	nombre varchar,
+	descripcion varchar,
+	fecha_inicio date,
+	fecha_final date,
+	tema varchar
+);
+
+CREATE TABLE COLECCIONES_PERMANENTES(
+	id_museo integer unique,
+	foreign key(id_museo) REFERENCES museo(id_museo),
+	nombre varchar,
+	descripcion varchar,
+	tema varchar
+);
+
+CREATE TABLE ACCESIBILIDAD(
+	id_museo integer unique,
+	foreign key(id_museo) REFERENCES museo(id_museo),
+	acc_ninguna bool default 'false',
+	acc_auditiva bool default 'false',
+	acc_motriz bool default 'false',
+	acc_cognitiva bool default 'false',
+	acc_visual bool default 'false',
+	acc_otra bool default 'false',
+	acc_otra_descripcion varchar
+);
+
+CREATE TABLE actividades(
+	id_museo integer unique,
+	foreign key(id_museo) REFERENCES museo(id_museo),
+	nombre varchar,
+	descripcion varchar,
+	fecha date,
+	tipo varchar,
+	organizador varchar
+);
+
+CREATE TABLE administrador_bd(
+	nombre varchar,
+	contacto varchar,
+	nombre_usuario varchar unique not null primary key,
+	contaseña varchar unique not null
+);

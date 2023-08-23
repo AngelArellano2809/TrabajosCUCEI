@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1623</width>
+    <height>1066</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1620</width>
+      <height>1080</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>931</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="toolTip">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>C:/Users/Usuario/Downloads/albert-vincent-wu-hAWs6oHfhms-unsplash (2).jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1621</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Arial'; font-size:28pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Muesos Jalisco&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+
+	font: 28pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+
+background-color:rgb(122, 122, 122)
+
+}</string>
+    </property>
+    <property name="text">
+     <string>   Muesos Jalisco</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>120</y>
+      <width>781</width>
+      <height>851</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QGroupBox{
+font: 14pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+background-color:rgb(68, 68, 68)
+
+}</string>
+    </property>
+    <property name="title">
+     <string>Acciones Encargados de Museos</string>
+    </property>
+    <widget class="QGraphicsView" name="eleminar_graphicsView">
+     <property name="geometry">
+      <rect>
+       <x>36</x>
+       <y>345</y>
+       <width>361</width>
+       <height>221</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>36</x>
+       <y>593</y>
+       <width>711</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+
+font: 18pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+
+background-color:rgb(98, 138, 76)
+
+}</string>
+     </property>
+     <property name="text">
+      <string>Modificar Información de Museo</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>36</x>
+       <y>312</y>
+       <width>711</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+
+font: 18pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+
+background-color:rgb(98, 138, 76)
+
+}</string>
+     </property>
+     <property name="text">
+      <string>Eliminar Colección Temporal</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>36</x>
+       <y>32</y>
+       <width>711</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+
+font: 18pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+
+background-color:rgb(98, 138, 76)
+
+}</string>
+     </property>
+     <property name="text">
+      <string>Añadir Colección Temporal</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>36</x>
+       <y>65</y>
+       <width>709</width>
+       <height>215</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox{
+
+background-color:rgb(162, 162,162)
+
+}</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLineEdit" name="add_nom_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>30</y>
+        <width>291</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 12pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+background-color:rgb(122, 122, 122)
+
+}</string>
+      </property>
+      <property name="placeholderText">
+       <string>Nombre museo</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="add_des_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>80</y>
+        <width>291</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 12pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+background-color:rgb(122, 122, 122)
+
+}</string>
+      </property>
+      <property name="placeholderText">
+       <string>Descripción Museo</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="add_tem_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>130</y>
+        <width>291</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 12pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+background-color:rgb(122, 122, 122)
+
+}</string>
+      </property>
+      <property name="placeholderText">
+       <string>Tema Museo</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="add_fec_ini_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>130</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 12pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+background-color:rgb(122, 122, 122)
+
+}</string>
+      </property>
+      <property name="placeholderText">
+       <string>Fecha Inicio</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="add_fec_fin_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>130</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 12pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+background-color:rgb(122, 122, 122)
+
+}</string>
+      </property>
+      <property name="placeholderText">
+       <string>Fecha Final</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="per_radioButton">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>30</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QRadioButton{
+font: 12pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+background-color:rgb(122, 122, 122)
+}</string>
+      </property>
+      <property name="text">
+       <string>Permanente</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="tem_radioButton">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>80</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QRadioButton{
+font: 12pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+background-color:rgb(122, 122, 122)
+}</string>
+      </property>
+      <property name="text">
+       <string>Temporal</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>174</y>
+        <width>101</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+font: 14pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+background-color:rgb(122, 122, 122)
+}</string>
+      </property>
+      <property name="text">
+       <string>Añadir</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="geometry">
+      <rect>
+       <x>404</x>
+       <y>345</y>
+       <width>341</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox{
+
+background-color:rgb(162, 162,162)
+
+}</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLineEdit" name="eli_col_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>60</y>
+        <width>291</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 12pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+background-color:rgb(122, 122, 122)
+
+}</string>
+      </property>
+      <property name="placeholderText">
+       <string>Nombre Colección</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="eli_col_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>120</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+font: 14pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+background-color:rgb(122, 122, 122)
+}</string>
+      </property>
+      <property name="text">
+       <string>Eliminar</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_4">
+     <property name="geometry">
+      <rect>
+       <x>36</x>
+       <y>626</y>
+       <width>710</width>
+       <height>215</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox{
+
+background-color:rgb(162, 162,162)
+
+}</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLineEdit" name="mod_nom_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>40</y>
+        <width>291</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 12pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+background-color:rgb(122, 122, 122)
+
+}</string>
+      </property>
+      <property name="placeholderText">
+       <string>Nombre Museo</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="mod_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>170</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+font: 14pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+background-color:rgb(122, 122, 122)
+}</string>
+      </property>
+      <property name="text">
+       <string>Modificar</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="mod_ubi_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>40</y>
+        <width>291</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 12pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+background-color:rgb(122, 122, 122)
+
+}</string>
+      </property>
+      <property name="placeholderText">
+       <string>Ubicación Museo</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="mod_con_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>110</y>
+        <width>291</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 12pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+background-color:rgb(122, 122, 122)
+
+}</string>
+      </property>
+      <property name="placeholderText">
+       <string>Contacto Museo</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="mod_hor_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>110</y>
+        <width>291</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 12pt &quot;Arial&quot;;
+color:rgb(255, 255, 255);
+background-color:rgb(122, 122, 122)
+
+}</string>
+      </property>
+      <property name="placeholderText">
+       <string>Horario Museo</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1623</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuEncargado_Museo">
+    <property name="title">
+     <string>Encargado﻿ Museo</string>
+    </property>
+    <addaction name="actionAvisos"/>
+    <addaction name="actionContactar_Administrados"/>
+    <addaction name="actionConfiguracion"/>
+    <addaction name="separator"/>
+    <addaction name="actionSing_Out"/>
+   </widget>
+   <addaction name="menuEncargado_Museo"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAvisos">
+   <property name="text">
+    <string>Avisos</string>
+   </property>
+  </action>
+  <action name="actionContactar_Administrados">
+   <property name="text">
+    <string>Contactar Administrador</string>
+   </property>
+  </action>
+  <action name="actionConfiguracion">
+   <property name="text">
+    <string>Configuracion</string>
+   </property>
+  </action>
+  <action name="actionSing_Out">
+   <property name="text">
+    <string>Sing Out</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
