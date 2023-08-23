@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1651113097 source:c:\users\usuario\documents\trabajos 3 cucei\6. sem estructura de datos i\proyecto 3\reproductor\main.cpp
+	<windows.h>
+	<iostream>
+	<conio.h>
+	<stdio.h>
+	"MenuCircular.h"
+	"ListaCircular.h"
+
+1651116662 source:c:\users\usuario\documents\trabajos 3 cucei\6. sem estructura de datos i\proyecto 3\reproductor\listacircular.cpp
+	"ListaCircular.h"
+
+1651115957 c:\users\usuario\documents\trabajos 3 cucei\6. sem estructura de datos i\proyecto 3\reproductor\listacircular.h
+	<windows.h>
+	<iostream>
+
+1650983111 source:c:\users\usuario\documents\trabajos 3 cucei\6. sem estructura de datos i\proyecto 3\reproductor\menucircular.cpp
+	"MenuCircular.h"
+
+1650983111 c:\users\usuario\documents\trabajos 3 cucei\6. sem estructura de datos i\proyecto 3\reproductor\menucircular.h
+	<windows.h>
+	<iostream>
+	"ListaCircular.h"
+
