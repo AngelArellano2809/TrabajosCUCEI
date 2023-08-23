@@ -1,0 +1,237 @@
+
+\documentclass{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%TCIDATA{OutputFilter=LATEX.DLL}
+%TCIDATA{Version=5.50.0.2953}
+%TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
+%TCIDATA{BibliographyScheme=Manual}
+%TCIDATA{Created=Tuesday, January 25, 2022 15:01:52}
+%TCIDATA{LastRevised=Tuesday, January 25, 2022 21:15:49}
+%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
+%TCIDATA{<META NAME="DocumentShell" CONTENT="Standard LaTeX\Blank - Standard LaTeX Article">}
+%TCIDATA{CSTFile=40 LaTeX article.cst}
+%TCIDATA{ComputeDefs=
+%$f(x)=e^{x^{2}}$
+%$g(x)=e^{-x}$
+%}
+
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newenvironment{proof}[1][Proof]{\noindent\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
+\input{tcilatex}
+
+\begin{document}
+
+
+\section{1}
+
+1.
+
+$g(x)=e^{-x}$
+
+\begin{tabular}{lll}
+$g(x)=\allowbreak e^{-x}$ & $\rightarrow $ & $g(0)=\allowbreak \allowbreak 1$
+\\ 
+$g^{\prime }(x)=-e^{-x}$ & $\rightarrow $ & $g^{\prime }(0)=\allowbreak -1$
+\\ 
+$g^{\prime \prime }(x)=\allowbreak e^{-x}$ & $\rightarrow $ & $g^{\prime
+\prime }(0)=\allowbreak \allowbreak 1$ \\ 
+$g^{\prime \prime \prime }(x)=\allowbreak \allowbreak -e^{-x}$ & $%
+\rightarrow $ & $g^{\prime \prime \prime }(0)=\allowbreak \allowbreak -1$ \\ 
+$g^{(4)}(x)=\allowbreak e^{-x}$ & $\rightarrow $ & $g^{(4)}(0)=\allowbreak 1$
+\\ 
+$g^{(5)}(x)=\allowbreak -e^{-x}$ & $\rightarrow $ & $g^{(5)}(0)=\allowbreak
+-1$ \\ 
+$g^{(6)}(x)=\allowbreak e^{-x}$ & $\rightarrow $ & $g^{(6)}(0)=\allowbreak
+\allowbreak 1$ \\ 
+$g^{(7)}(x)=\allowbreak \allowbreak -e^{-x}$ & $\rightarrow $ & $%
+g^{(7)}(0)=\allowbreak -1$ \\ 
+$g^{(8)}(x)=\allowbreak \allowbreak e^{-x}$ & $\rightarrow $ & $%
+g^{(8)}(0)=\allowbreak 1$%
+\end{tabular}
+
+$e^{-x}=1-\frac{1}{1!}x+\frac{1}{2!}x^{2}-\frac{1}{3!}x^{3}+\frac{1}{4!}%
+x^{4}-...$
+
+$e^{-x}=\sum_{n=0}^{\infty }\frac{(-1)^{n}}{n!}x^{n}$\newline
+
+metodo 1:
+
+$1-x+\frac{x^{2}}{2}-\frac{x^{3}}{3!}+\frac{x^{4}}{4!}-\frac{x^{5}}{5!}+%
+\frac{x^{6}}{6!}-\frac{x^{7}}{7!}+\frac{x^{8}}{8!}-\frac{x^{9}}{9!}+\frac{%
+x^{10}}{10!}-\frac{x^{11}}{11!}+\frac{x^{12}}{12!}-\frac{x^{13}}{13!}+\frac{%
+x^{14}}{14!}-\frac{x^{15}}{15!}+\frac{x^{16}}{16!}-\frac{x^{17}}{17!}+\frac{%
+x^{18}}{18!}-\frac{x^{19}}{19!}+\frac{x^{20}}{20!}$
+
+sustiticion
+
+$1-5+\frac{5^{2}}{2}-\frac{5^{3}}{3!}+\frac{5^{4}}{4!}-\frac{5^{5}}{5!}+%
+\frac{5^{6}}{6!}-\frac{5^{7}}{7!}+\frac{5^{8}}{8!}-\frac{5^{9}}{9!}+\frac{%
+5^{10}}{10!}-\frac{5^{11}}{11!}+\frac{5^{12}}{12!}-\frac{5^{13}}{13!}+\frac{%
+5^{14}}{14!}-\frac{5^{15}}{15!}+\frac{5^{16}}{16!}-\frac{5^{17}}{17!}+\frac{%
+5^{18}}{18!}-\frac{5^{19}}{19!}+\frac{5^{20}}{20!}=\allowbreak \frac{%
+26\,257\,\allowbreak 980\,879\,929}{3892\,643\,\allowbreak 213\,082\,624}%
+=\allowbreak 6.\,\allowbreak 745\,540\,10\times 10^{-3}$
+
+metodo 2:
+
+$\frac{1}{1-x+\frac{x^{2}}{2}-\frac{x^{3}}{3!}+\frac{x^{4}}{4!}-\frac{x^{5}}{%
+5!}+\frac{x^{6}}{6!}-\frac{x^{7}}{7!}+\frac{x^{8}}{8!}-\frac{x^{9}}{9!}+%
+\frac{x^{10}}{10!}-\frac{x^{11}}{11!}+\frac{x^{12}}{12!}-\frac{x^{13}}{13!}+%
+\frac{x^{14}}{14!}-\frac{x^{15}}{15!}+\frac{x^{16}}{16!}-\frac{x^{17}}{17!}+%
+\frac{x^{18}}{18!}-\frac{x^{19}}{19!}+\frac{x^{20}}{20!}}$
+
+sustiticion
+
+$\frac{1}{1-5+\frac{5^{2}}{2}-\frac{5^{3}}{3!}+\frac{5^{4}}{4!}-\frac{5^{5}}{%
+5!}+\frac{5^{6}}{6!}-\frac{5^{7}}{7!}+\frac{5^{8}}{8!}-\frac{5^{9}}{9!}+%
+\frac{5^{10}}{10!}-\frac{5^{11}}{11!}+\frac{5^{12}}{12!}-\frac{5^{13}}{13!}+%
+\frac{5^{14}}{14!}-\frac{5^{15}}{15!}+\frac{5^{16}}{16!}-\frac{5^{17}}{17!}+%
+\frac{5^{18}}{18!}-\frac{5^{19}}{19!}+\frac{5^{20}}{20!}}=\allowbreak \frac{%
+3892\,643\,\allowbreak 213\,082\,624}{26\,257\,\allowbreak 980\,879\,929}%
+=\allowbreak 148.\,\allowbreak 246\,098$
+
+Error relativo 1:
+
+$E_{r}=\left\Vert \frac{6.737947\times 10^{-3}-6.\,\allowbreak
+745\,540\,10\times 10^{-3}}{6.737947\times 10^{-3}}\right\Vert =\allowbreak
+1.\,\allowbreak 126\,915\,96\times 10^{-3}$
+
+Error relativo 2:
+
+$E_{r}=\left\Vert \frac{6.737947\times 10^{-3}-148.\,\allowbreak 246\,098}{%
+6.737947\times 10^{-3}}\right\Vert =22000.\,\allowbreak 671\,7$
+
+2.
+
+$%
+\begin{tabular}{lll}
+$f(x)=e^{x^{2}}$ & $\rightarrow $ & $f(0)=\allowbreak 1$ \\ 
+$f^{\prime }(x)=\allowbreak 2xe^{x^{2}}$ & $\rightarrow $ & $f^{\prime
+}(0)=\allowbreak 0$ \\ 
+$f^{\prime \prime }(x)=\allowbreak 2e^{x^{2}}+4x^{2}e^{x^{2}}$ & $%
+\rightarrow $ & $f^{\prime \prime }(0)=\allowbreak 2$ \\ 
+$f^{\prime \prime \prime }(x)=\allowbreak 12xe^{x^{2}}+8x^{3}e^{x^{2}}$ & $%
+\rightarrow $ & $f^{\prime \prime \prime }(0)=\allowbreak 0$ \\ 
+$f^{(4)}(x)=\allowbreak 12e^{x^{2}}+48x^{2}e^{x^{2}}+16x^{4}e^{x^{2}}$ & $%
+\rightarrow $ & $f^{(4)}(0)=\allowbreak 12$ \\ 
+$f^{(5)}(x)=\allowbreak
+120xe^{x^{2}}+160x^{3}e^{x^{2}}+32x^{5}e^{x^{2}}\allowbreak $ & $\rightarrow 
+$ & $f^{(5)}(0)=\allowbreak 0$ \\ 
+$f^{(6)}(x)=\allowbreak
+120e^{x^{2}}+720x^{2}e^{x^{2}}+480x^{4}e^{x^{2}}+\allowbreak 64x^{6}e^{x^{2}}
+$ & $\rightarrow $ & $f^{(6)}(0)=\allowbreak 120$ \\ 
+$f^{(7)}(x)=\allowbreak
+1680xe^{x^{2}}+3360x^{3}e^{x^{2}}+1344x^{5}e^{x^{2}}+\allowbreak
+128x^{7}e^{x^{2}}$ & $\rightarrow $ & $f^{(7)}(0)=\allowbreak 0$ \\ 
+$f^{(8)}(x)=\allowbreak ...$ & $\rightarrow $ & $f^{(8)}(0)=\allowbreak 1680$%
+\end{tabular}%
+$
+
+$e^{x^{2}}=1+\frac{0}{1!}x+\frac{2}{2!}x^{2}+\frac{0}{3!}x^{3}+\frac{12}{4!}%
+x^{4}+...$
+
+\qquad $=1+\frac{2}{2!}x^{2}+\frac{12}{4!}x^{4}+\frac{120}{6!}x^{6}+\frac{%
+1680}{8!}x^{8}+...$
+
+integral no pude completarla :( 
+
+$e^{x^{2}}=\sum_{n=0}^{\infty }\frac{{}}{(2n)!}x^{2n}$\newline
+
+Analisis a 10 terminos
+
+$\int_{1}^{3}\frac{e^{x^{2}}}{x^{2}}dx=\int_{1}^{3}\frac{\sum_{n=0}^{\infty }%
+\frac{{}}{(2n)!}x^{2n}}{x^{2}}$
+
+\bigskip $f^{(18)}(0)=\allowbreak 17\,\allowbreak 643\,225\,600$
+
+$=\int_{1}^{3}(\frac{1+\frac{2}{2!}x^{2}+\frac{12}{4!}x^{4}+\frac{120}{6!}%
+x^{6}+\frac{1680}{8!}x^{8}+\frac{30240}{10!}x^{10}+\frac{665280}{12!}x^{12}+%
+\frac{17297280}{14!}x^{14}+\frac{518918400}{16!}x^{16}+\frac{17643225600}{18!%
+}x^{18}}{x^{2}})$
+
+$=\int_{1}^{3}(\frac{1}{x^{2}}+1+\frac{12}{4!}x^{2}+\frac{120}{6!}x^{4}+%
+\frac{1680}{8!}x^{6}+\frac{30240}{10!}x^{8}+\frac{665280}{12!}x^{10}+\frac{%
+17297280}{14!}x^{12}+\frac{518918400}{16!}x^{14}+\frac{17643225600}{18!}%
+x^{16})$
+
+$=\frac{-1}{x}+x+\frac{12}{4!}(\frac{x^{3}}{3})+\frac{120}{6!}(\frac{x^{5}}{5%
+})+\frac{1680}{8!}(\frac{x^{7}}{7})+\frac{30240}{10!}(\frac{x^{9}}{9})+\frac{%
+665280}{12!}(\frac{x^{11}}{11})+\frac{17297280}{14!}(\frac{x^{13}}{13})+%
+\frac{518918400}{16!}(\frac{x^{15}}{15})+\frac{17643225600}{18!}(\frac{x^{17}%
+}{17})|_{1}^{3}$
+
+sustituir
+
+$=\frac{-1}{(3)}+(3)+\frac{12}{4!}(\frac{(3)^{3}}{3})+\frac{120}{6!}(\frac{%
+(3)^{5}}{5})+\frac{1680}{8!}(\frac{(3)^{7}}{7})+\frac{30240}{10!}(\frac{%
+(3)^{9}}{9})+\frac{665280}{12!}(\frac{(3)^{11}}{11})+\frac{17297280}{14!}(%
+\frac{(3)^{13}}{13})+\frac{518918400}{16!}(\frac{(3)^{15}}{15})+\frac{%
+17643225600}{18!}(\frac{(3)^{17}}{17})=\allowbreak \frac{1407\,668\,593}{%
+10\,210\,200}=\allowbreak 137.\,\allowbreak 868\,856$
+
+$=\frac{-1}{(1)}+(1)+\frac{12}{4!}(\frac{(1)^{3}}{3})+\frac{120}{6!}(\frac{%
+(1)^{5}}{5})+\frac{1680}{8!}(\frac{(1)^{7}}{7})+\frac{30240}{10!}(\frac{%
+(1)^{9}}{9})+\frac{665280}{12!}(\frac{(1)^{11}}{11})+\frac{17297280}{14!}(%
+\frac{(1)^{13}}{13})+\frac{518918400}{16!}(\frac{(1)^{15}}{15})+\frac{%
+17643225600}{18!}(\frac{(1)^{17}}{17})=\allowbreak \frac{114\,141\,551}{%
+551\,350\,800}=\allowbreak 0.207\,021\,648\,\allowbreak $
+
+resultado
+
+$\allowbreak 137.\,\allowbreak 868\,856-0.207\,021\,648\,=\allowbreak
+137.\,\allowbreak 661\,834$
+
+Error Porcentual
+
+$E_{\%}=\left\Vert \frac{1.87855248264\times 10^{2}-137.\,\allowbreak
+661\,834}{1.87855248264\times 10^{2}}\times 100\right\Vert =\allowbreak
+26.\,\allowbreak 719\,197\,2\%$
+
+$1.87855248264\times 10^{2}=\allowbreak 187.\,\allowbreak 855\,248$
+
+3.
+
+promedio
+
+\bigskip $\frac{100.0+98.0+101.0+97.0}{4}=\allowbreak 99.0$
+
+Errores:
+
+\bigskip $E_{a}=\left\Vert 99.0-101.0\right\Vert =\allowbreak 2.0$
+
+$E_{p}=\left\Vert \frac{99.0-101.0}{99.0}\right\Vert \times 100=\allowbreak
+2.\,\allowbreak 020\,202\,02\%$
+
+4.
+
+\begin{tabular}{cc}
+$f(x)=\frac{e^{x}-1-x}{x^{2}}$ & $P(x)=\frac{1}{2}+\frac{x}{6}+\frac{x^{2}}{%
+24}$ \\ 
+$f(0.01)=\frac{e^{(0.01)}-1-(0.01)}{(0.01)^{2}}=\allowbreak
+0.501\,670\,842\,\allowbreak $ & $P(x)=\frac{1}{2}+\frac{(0.01)}{6}+\frac{%
+(0.01)^{2}}{24}=\allowbreak 0.501\,670\,833\,\allowbreak $%
+\end{tabular}%
+\newline
+
+\end{document}

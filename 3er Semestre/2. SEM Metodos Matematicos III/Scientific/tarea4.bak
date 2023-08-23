@@ -1,0 +1,189 @@
+
+\documentclass{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%TCIDATA{OutputFilter=LATEX.DLL}
+%TCIDATA{Version=5.50.0.2953}
+%TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
+%TCIDATA{BibliographyScheme=Manual}
+%TCIDATA{Created=Tuesday, February 01, 2022 19:44:05}
+%TCIDATA{LastRevised=Tuesday, February 01, 2022 23:23:12}
+%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
+%TCIDATA{<META NAME="DocumentShell" CONTENT="Standard LaTeX\Blank - Standard LaTeX Article">}
+%TCIDATA{CSTFile=40 LaTeX article.cst}
+%TCIDATA{ComputeDefs=
+%$f(x)=0.95x^{3}-5.9x^{2}+10.9x-6$
+%$g_{1}(x)=\frac{-0.95x^{3}+5.9x^{2}-6}{10.9}$
+%}
+
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newenvironment{proof}[1][Proof]{\noindent\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
+\input{tcilatex}
+
+\begin{document}
+
+
+$\bigskip $1.
+
+$f(x)=0.95x^{3}-5.9x^{2}+10.9x-6$
+
+\bigskip \FRAME{dtbpFX}{4.4996in}{3in}{0pt}{}{}{Plot}{\special{language
+"Scientific Word";type "MAPLEPLOT";width 4.4996in;height 3in;depth
+0pt;display "USEDEF";plot_snapshots TRUE;mustRecompute FALSE;lastEngine
+"MuPAD";xmin "-2";xmax "8";xviewmin "-2";xviewmax "8";yviewmin
+"-10";yviewmax "10";viewset"XY";rangeset"X";plottype 4;axesFont "Times New
+Roman,12,0000000000,useDefault,normal";numpoints 100;plotstyle
+"patch";axesstyle "normal";axestips FALSE;xis \TEXUX{x};var1name
+\TEXUX{$x$};function \TEXUX{$0.95x^{3}-5.9x^{2}+10.9x-6$};linecolor
+"magenta";linestyle 1;pointstyle "point";linethickness 2;lineAttributes
+"Solid";var1range "-2,8";num-x-gridlines 100;curveColor
+"[flat::RGB:0x00ff00ff]";curveStyle "Line";function
+\TEXUX{$+\root{2}\of{\frac{6-10.9x-0.95x^{3}}{-5.9}}$};linecolor
+"yellow";linestyle 1;pointstyle "point";linethickness 2;lineAttributes
+"Solid";var1range "-2,8";num-x-gridlines 100;curveColor
+"[flat::RGB:0x00ffff00]";curveStyle "Line";function
+\TEXUX{$+\root{3}\of{\frac{6+5.9x^{2}-10.9x}{0.95}}$};linecolor
+"yellow";linestyle 1;pointstyle "point";linethickness 2;lineAttributes
+"Solid";var1range "-2,8";num-x-gridlines 100;curveColor
+"[flat::RGB:0x00808000]";curveStyle "Line";function
+\TEXUX{$\frac{-0.95x^{3}+5.9x^{2}-6}{10.9}$};linecolor "magenta";linestyle
+1;pointstyle "point";linethickness 2;lineAttributes "Solid";var1range
+"-2,8";num-x-gridlines 100;curveColor "[flat::RGB:0x0061006c]";curveStyle
+"Line";VCamFile 'R6NU3Y0U.xvz';valid_file "T";tempfilename
+'R6NU3Y04.wmf';tempfile-properties "XPR";}}
+
+\bigskip 
+
+\bigskip 
+
+\begin{eqnarray*}
+f(x) &=&0.95x^{3}-5.9x^{2}+10.9x-6=0 \\
+x_{2} &=&\pm \sqrt[2]{\frac{6-10.9x-0.95x^{3}}{-5.9}} \\
+x_{3} &=&\pm \sqrt[3]{\frac{6+5.9x^{2}-10.9x}{0.95}} \\
+x_{1} &=&\frac{-0.95x^{3}+5.9x^{2}-6}{10.9} \\
+g_{1}(x) &=&\frac{-0.95x^{3}+5.9x^{2}-6}{10.9} \\
+g_{1}^{\prime }(x) &=&1.\,\allowbreak
+082\,568\,81x-0.261\,467\,890\,\allowbreak \allowbreak x^{2} \\
+\left\vert g_{1}^{\prime }(3.5)\right\vert  &=&\allowbreak
+0.586\,009\,183\,\allowbreak <1 \\
+&&
+\end{eqnarray*}
+
+$1.\,\allowbreak 082\,568\,81(3.5)-0.261\,467\,890\,\allowbreak \allowbreak
+(3.5)^{2}=\allowbreak 0.586\,009\,183\,\allowbreak $
+
+\bigskip 
+
+\bigskip d)
+
+\FRAME{dtbpFX}{4.4996in}{3in}{0pt}{}{}{Plot}{\special{language "Scientific
+Word";type "MAPLEPLOT";width 4.4996in;height 3in;depth 0pt;display
+"USEDEF";plot_snapshots TRUE;mustRecompute FALSE;lastEngine "MuPAD";xmin
+"-2";xmax "8";xviewmin "-2";xviewmax "8";yviewmin "-10";yviewmax
+"10";viewset"XY";rangeset"X";plottype 4;axesFont "Times New
+Roman,12,0000000000,useDefault,normal";numpoints 100;plotstyle
+"patch";axesstyle "normal";axestips FALSE;xis \TEXUX{x};var1name
+\TEXUX{$x$};function \TEXUX{$0.95x^{3}-5.9x^{2}+10.9x-6$};linecolor
+"magenta";linestyle 1;pointstyle "point";linethickness 2;lineAttributes
+"Solid";var1range "-2,8";num-x-gridlines 100;curveColor
+"[flat::RGB:0x00ff00ff]";curveStyle "Line";function
+\TEXUX{$\frac{(6-10.9x)}{(0.95x^{2}-5.9x)}$};linecolor "yellow";linestyle
+1;pointstyle "point";linethickness 2;lineAttributes "Solid";var1range
+"-2,8";num-x-gridlines 100;curveColor "[flat::RGB:0x00808000]";curveStyle
+"Line";VCamFile 'R6NU3Y0T.xvz';valid_file "T";tempfilename
+'R6NU3Y05.wmf';tempfile-properties "XPR";}}
+
+\begin{eqnarray*}
+f(x) &=&0.95x^{3}-5.9x^{2}+10.9x-6 \\
+g_{1}(x) &=&\frac{(6-10.9x)}{(0.95x^{2}-5.9x)} \\
+g_{1}^{\prime }(x) &=&\left( 10.\,\allowbreak 9x-6\right) \frac{%
+1.\,\allowbreak 9x-5.\,\allowbreak 9}{\left( 0.95x^{2}-5.\,\allowbreak
+9x\right) ^{2}}-\frac{10.\,\allowbreak 9}{0.95x^{2}-5.\,\allowbreak 9x}%
+\allowbreak  \\
+\left\vert g_{1}^{^{\prime }}(2.1)\right\vert  &=&\allowbreak
+0.849\,473\,291\,\allowbreak <1
+\end{eqnarray*}%
+{}
+
+\bigskip 
+
+2.
+
+$V=\pi h^{2}\frac{\left[ 3R-h\right] }{3}$
+
+$R=3m=9.84252\left[ pies\right] $
+
+$V=30m^{3}=1059.44\left[ pies^{3}\right] $
+
+$1059.44=\pi h^{2}\frac{\left[ 3(9.84252)-h\right] }{3}$, Solution is: $%
+28.\,\allowbreak 260\,849\,7,6.\,\allowbreak 649\,953\,01,-\allowbreak
+5.\,\allowbreak 383\,242\,66$
+
+\begin{eqnarray*}
+V &=&\pi h^{2}\frac{\left[ 3R-h\right] }{3} \\
+1059.44 &=&\pi h^{2}\frac{\left[ 3(9.84252)-h\right] }{3} \\
+3178.\,\allowbreak 32 &=&\pi h^{2}\left[ \allowbreak 29.\,\allowbreak
+527\,56-h\right]  \\
+h^{3}-29.\,\allowbreak 527\,56h^{2}+\frac{3178.\,\allowbreak 32}{\pi } &=&0
+\\
+f(h) &=&h^{3}-29.\,\allowbreak 527\,56h^{2}+\frac{3178.\,\allowbreak 32}{\pi 
+} \\
+g_{1}(h) &=&h=\sqrt[3]{29.\,\allowbreak 527\,56h^{2}-\frac{%
+3178.\,\allowbreak 32}{\pi }} \\
+g_{1}^{\prime }(h) &=&-19.\,\allowbreak 685\,04\frac{h}{\frac{%
+3178.\,\allowbreak 32}{\pi }-29.\,\allowbreak 527\,56h^{2}}\allowbreak \sqrt[%
+3]{29.\,\allowbreak 527\,56h^{2}-\frac{3178.\,\allowbreak 32}{\pi }} \\
+\left\vert g_{1}^{\prime }(29)\right\vert  &=&\allowbreak
+0.689\,542\,641\,\allowbreak <1 \\
+g_{2}(h) &=&h=\sqrt[2]{\frac{h^{3}+\frac{3178.\,\allowbreak 32}{\pi }}{%
+29.\,\allowbreak 527\,56}} \\
+g_{2}^{\prime }(h) &=&5.\,\allowbreak 079\,999\,84\times 10^{-2}\frac{h^{2}}{%
+\sqrt{3.\,\allowbreak 386\,666\,56\times 10^{-2}h^{3}+\frac{%
+107.\,\allowbreak 639\,101}{\pi }}}\allowbreak  \\
+\left\vert g_{2}^{\prime }(29)\right\vert  &=&7.29876868>1
+\end{eqnarray*}
+
+\FRAME{dtbpFX}{3.6927in}{2.4621in}{0pt}{}{}{Plot}{\special{language
+"Scientific Word";type "MAPLEPLOT";width 3.6927in;height 2.4621in;depth
+0pt;display "USEDEF";plot_snapshots TRUE;mustRecompute FALSE;lastEngine
+"MuPAD";xmin "-15";xmax "30";xviewmin "-15";xviewmax "30";yviewmin
+"-2800";yviewmax "1100";viewset"XY";rangeset"X";plottype 4;axesFont "Times
+New Roman,12,0000000000,useDefault,normal";numpoints 100;plotstyle
+"patch";axesstyle "normal";axestips FALSE;xis \TEXUX{h};var1name
+\TEXUX{$h$};function \TEXUX{$h^{3}-29.\,\allowbreak
+527\,56h^{2}+\frac{3178.\,\allowbreak 32}{\pi }$};linecolor
+"green";linestyle 1;pointstyle "point";linethickness 2;lineAttributes
+"Solid";var1range "-15,30";num-x-gridlines 100;curveColor
+"[flat::RGB:0x00008000]";curveStyle "Line";function
+\TEXUX{$+\root{3}\of{29.\,\allowbreak 527\,56h^{2}-\frac{3178.\,\allowbreak
+32}{\pi }}$};linecolor "maroon";linestyle 1;pointstyle "point";linethickness
+2;lineAttributes "Solid";var1range "-15,30";num-x-gridlines 100;curveColor
+"[flat::RGB:0x00800000]";curveStyle "Line";function
+\TEXUX{$+\root{2}\of{\frac{h^{3}+\frac{3178.\,\allowbreak 32}{\pi
+}}{29.\,\allowbreak 527\,56}}$};linecolor "cyan";linestyle 1;pointstyle
+"point";linethickness 2;lineAttributes "Solid";var1range
+"-15,30";num-x-gridlines 100;curveColor "[flat::RGB:0x000080c0]";curveStyle
+"Line";VCamFile 'R6NW3W1A.xvz';valid_file "T";tempfilename
+'R6NV9707.wmf';tempfile-properties "XPR";}}ZZ
+
+\end{document}
